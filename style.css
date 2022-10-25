@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto", sans-serif;
+  border: none;
+  transition: all 0.2s cubic-bezier(0.39, 0.77, 0.38, 0.77) !important;
+}
+body {
+  background-color: rgb(40, 40, 40);
+}
+
+*:focus {
+  outline: none;
+}
+.container {
+  background-color: rgb(51, 51, 51);
+  padding: 2em 4em;
+  width: 40%;
+  margin-inline: auto;
+  border-radius: 10px;
+  margin-top: 5em;
+  box-shadow: 3.5px 3.5px 5px rgba(0, 0, 0, 0.35),
+    -3.5px -3.5px 5px rgba(0, 0, 0, 0.35);
+}
+.heading {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font: bold 2rem cursive;
+  padding: 0.25em 0.5em;
+  background: linear-gradient(to right, #1d4350, #a43931);
+  border-radius: 5px;
+  margin-bottom: 0.5em;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25), -1px -1px 4px rgba(0, 0, 0, 0.25);
+}
+.input__box {
+  margin-bottom: 1em;
+}
+.input__field {
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.35em 0.5em;
+  background-color: rgb(222, 222, 222);
+  border-radius: 4px;
+  margin-right: 1em;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25), -1px -1px 4px rgba(0, 0, 0, 0.25);
+}
+.enter__btn {
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 0.5em 0.75em;
+  background-color: rgb(90, 90, 90);
+  color: rgb(255, 255, 255);
+}
+.enter__btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25), -1px -1px 4px rgba(0, 0, 0, 0.25);
+}
+.moto {
+  font: 700 1.75rem "Caveat", cursive;
+  margin-bottom: 0.5em;
+  align-self: flex-end;
+  color: rgb(222, 222, 222);
+}
+.credit {
+  text-align: end;
+  margin-top: 1em;
+}
+.__madeby {
+  font-family: "Caveat", cursive;
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-decoration: wavy;
+  color: rgb(222, 222, 222);
+}
+.wrapper__div {
+  display: flex;
+  margin-bottom: 1em;
+  justify-content: space-between;
+}
+.liStyles {
+  font-family: cursive;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: white;
+  list-style-position: inside;
+  list-style-type: circle;
+  text-transform: capitalize;
+}
+.btn {
+  font-size: 0.875rem;
+  font-weight: bold;
+  padding: 0.5em 0.75em;
+  background-color: rgb(88, 88, 88);
+  color: white;
+  border-radius: 4px;
+  border: none;
+}
+.btn {
+  font-size: 0.875rem;
+  font-weight: bold;
+  padding: 0.5em 0.75em;
+  background-color: rgb(88, 88, 88);
+  color: white;
+  border-radius: 4px;
+  border: none;
+}
+.hover:hover {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25), -1px -1px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.flex {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+}
+.li__toggle {
+  font-size: 0.875rem;
+  text-decoration: line-through;
+}
+.btn__toggle {
+  background-color: green;
+}
